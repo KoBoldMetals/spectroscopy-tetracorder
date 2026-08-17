@@ -294,7 +294,7 @@ a=a+ read_an_image("group.2um/saponite.or.talc.fd.gif")
 
 # vermiculite        orange 
 c=c_orange
-a=   read_an_imAge("group.2um/micagrp_vermiculite_GDS458.fd.gif")
+a=   read_an_image("group.2um/micagrp_vermiculite_GDS458.fd.gif")
 a=a+ read_an_image("group.2um/micagrp_vermiculite_ALB4SA00.fd.gif")
 a=a+ read_an_image("group.2um/micagrp_vermiculite_WS682.fd.gif")
 a=a+ read_an_image("group.2um/micagrp_vermiculite_WS681.fd.gif")
