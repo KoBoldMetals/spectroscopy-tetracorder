@@ -25,7 +25,7 @@ fi
 #     arg4 = name added into the specpr titles
 #     arg5 = specpr record number for the resolution, full width half max, FWHM, in the convolved library file
 
-if [ -z "$12" ]
+if [ -z "${12}" ]
 then
 	echo "insufficient input"
 	echo " "
@@ -154,7 +154,7 @@ fi
 fwhm=${12}
 echo "ascii resolution ${11} = ${12}"
 
-if [ "$13" = "noX" ]
+if [ "${13}" = "noX" ]
 then
 	echo "plots will be ascii, no X-windows"
 	xoption="noX"
